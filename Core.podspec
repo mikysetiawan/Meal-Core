@@ -20,9 +20,9 @@ s.license = { :type => "MIT", :file => "LICENSE" }
  
 s.author = { "Miky Setiawan" => "mikysetiawan@gmail.com" }
  
-s.homepage = "https://github.com/mikysetiawan/Meal-CorePodSpecs"
+s.homepage = "https://github.com/mikysetiawan/Meal-Core"
  
-s.source = { :git => "https://github.com/mikysetiawan/Meal-CorePodSpecs.git", 
+s.source = { :git => "https://github.com/mikysetiawan/Meal-Core.git", 
 :tag => "#{s.version}" }
  
 s.framework = "UIKit"

@@ -14,7 +14,7 @@ s.name = "Core"
 s.summary = "TheMealAppPods,Core module for Dicoding Expert"
 s.requires_arc = true
  
-s.version = "1.0.0"
+s.version = "1.0.2"
  
 s.license = { :type => "MIT", :file => "LICENSE" }
  
@@ -28,7 +28,7 @@ s.source = { :git => "https://github.com/mikysetiawan/Meal-Core.git",
 s.framework = "UIKit"
  
 s.source_files = "Core/**/*.{swift}"
-#s.dependency 'Alamofire'
+s.dependency 'RealmSwift'
  
 #s.resources = "Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
  

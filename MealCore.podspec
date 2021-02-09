@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint Meal-Core.podspec' to ensure this is a
+#  Be sure to run `pod spec lint MealCore.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
  
 s.platform = :ios
 s.ios.deployment_target = '14.0'
-s.name = "Meal-Core"
+s.name = "MealCore"
 s.summary = "TheMealAppPods,Core module for Dicoding Expert"
 s.requires_arc = true
  
-s.version = "1.0.3"
+s.version = "1.0.4"
  
 s.license = { :type => "MIT", :file => "LICENSE" }
  
@@ -27,10 +27,10 @@ s.source = { :git => "https://github.com/mikysetiawan/Meal-Core.git",
  
 s.framework = "UIKit"
  
-s.source_files = "Meal-Core/**/*.{swift}"
+s.source_files = "MealCore/**/*.{swift}"
 s.dependency 'RealmSwift'
  
-#s.resources = "Meal-Core/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "MealCore/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
  
 s.swift_version = "5.1"
  

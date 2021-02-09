@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "49F520E025CE8D56004370FB"
-               BuildableName = "Meal_Core.framework"
-               BlueprintName = "Meal-Core"
-               ReferencedContainer = "container:Meal-Core.xcodeproj">
+               BuildableName = "MealCore.framework"
+               BlueprintName = "MealCore"
+               ReferencedContainer = "container:MealCore.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "49F520E925CE8D56004370FB"
-               BuildableName = "Meal-CoreTests.xctest"
-               BlueprintName = "Meal-CoreTests"
-               ReferencedContainer = "container:Meal-Core.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -61,9 +51,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "49F520E025CE8D56004370FB"
-            BuildableName = "Meal_Core.framework"
-            BlueprintName = "Meal-Core"
-            ReferencedContainer = "container:Meal-Core.xcodeproj">
+            BuildableName = "MealCore.framework"
+            BlueprintName = "MealCore"
+            ReferencedContainer = "container:MealCore.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
